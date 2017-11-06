@@ -1,0 +1,18 @@
+.art1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.art1 > .layer1 {
+    background: dodgerblue;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border-radius: 50%;
+    box-shadow: 40px 40px 0px rgba(0, 0, 255, 0.9);
+    
+}
+.art1 .layer1:nth-child(odd) {
+    background: blue;
+    box-shadow: 50px 50px 0px rgba(0, 0, 255, 0.363);
+}

@@ -1,0 +1,41 @@
+.Nav {
+    background: linear-gradient(to left, #555 5%, #222, #555 95%);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.navContent {
+    width: 34%;
+    
+}
+.navContent:nth-child(odd) {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.navContent:nth-child(even) {
+    
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18pt;
+    
+}
+.Nav a {
+    text-decoration: none;
+    color: white;
+    opacity: .8;
+    font-size: 14pt;
+    padding: 4px 10px;
+}
+.Nav a:hover {
+    opacity: 1;
+}
